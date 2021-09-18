@@ -97,6 +97,9 @@ body header .header-nav-top .nav-cart{
     justify-content: center;
     flex-grow: 1;
 }
+body header .header-nav-top .nav-search input{
+    outline: none;
+}
 body header .header-nav-top .nav-logo img{
  height: 120px;
     width: 200px;
@@ -841,7 +844,7 @@ body main .pet-care-product .product-item .product-item-content .title-product{
 
         }
         body footer .footer-img{
-            margin-top: -410px;
+            margin-top: -380px;
         }
         body footer .footer-img img{
             width: 100%;
