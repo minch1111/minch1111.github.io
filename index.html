@@ -1,0 +1,788 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Pet Paradise - Cửa hàng chăm sóc thú cưng </title>
+    <link rel = "icon" href ="img/PetLogo.png"
+        type = "image/x-icon">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/797e77c927.js" crossorigin="anonymous"></script>
+   <!--  <link rel="stylesheet" href="./Flickity/Flickity.css"> -->
+   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
+   <link rel="stylesheet" href="./css/slider.css">
+   <style>
+
+    
+   </style>
+  </head>
+  <body>
+    <div class="loading">
+        <div class="load">
+            <img src="./img/loading_2.gif" alt="">
+        </div>
+    </div>
+    <header>
+        <div class="header-nav">
+            <div class="container-fluid">
+                <div class="header-nav-top">
+                    <div class="nav-logo">
+                        <a href="#">
+                            <img src="./img/PetLogo.png" alt="logo page">
+                        </a>
+                    </div>
+                    <div class="nav-search">
+                        <input type="text" placeholder="Tìm kiếm ...">
+                        <div class="search"><i class="fas fa-search"></i></div>
+                    </div>
+                    <div class="nav-cart">
+                        <div class="cart-content">
+                            <h5>Giỏ hàng /0đ</h5>
+                        </div>
+                        <div class="cart-logo">
+                            <p>0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+                <div class="header-nav-bottom">
+                    <ul>
+                        <li class="menu-item" id="cat-shop">Shop cho mèo<span class="span1"></span> <span class="span2"></span>
+                            <div class="cat-shop-items cat-dog pet">
+                                <ul>
+                                    <li><a href="#"> Thức Ăn Cho Mèo</a></li>
+                                    <li><a href="#">Dụng Cụ Ăn Uống Cho Mèo</a></li>
+                                    <li><a href="#">Cát Vệ Sinh Cho Mèo</a></li>
+                                    <li><a href="#">Khay, Nhà Vệ Sinh Cho Mèo</a></li>
+                                    <li><a href="#">Chuồng Cho Mèo</a></li>
+                                    <li><a href="#">Thuốc Tẩy Giun Sán Cho Mèo</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        
+                        <li class="menu-item" id="dog-shop">Shop cho chó <span class="span1"></span> <span class="span2"></span>
+                            <div class="dog-shop-items cat-dog pet">
+                                <ul>
+                                    <li><a href="#"> Thức Ăn Cho Chó</a></li>
+                                    <li><a href="#">Dụng Cụ Ăn Uống Cho Chó</a></li>
+                                    <li><a href="#">Cát Vệ Sinh Cho Chó</a></li>
+                                    <li><a href="#">Khay, Nhà Vệ Sinh Cho Chó</a></li>
+                                    <li><a href="#">Chuồng Cho Chó</a></li>
+                                    <li><a href="#">Thuốc Tẩy Giun Sán Cho Chó</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-item" id="clothe-shop">Quần áo chó mèo <span class="span1"></span> <span class="span2"></span>
+                            <div class="clothe-shop-items pet">
+                                <div class="clothe-container">
+                                    <div class="clothe-kind">
+                                        <p>Chọn theo loại</p>
+                                        <ul>
+                                            <li><a href="#">Áo</a></li>
+                                            <li><a href="#">Quần</a></li>
+                                            <li><a href="#">Váy Đầm</a></li>
+                                            <li><a href="#">Giày Dép</a></li>
+                                            <li><a href="#">Mắt Kính</a></li>
+                                        </ul>
+                                    </div> 
+                                    <div class="clothe-season">
+                                        <p>Chọn theo dịp</p>
+                                        <ul>
+                                            <li><a href="#">Đồ Tết cho Chó Mèo</a></li>
+                                            <li><a href="#">Đồ Siêu Anh Hùng cho Chó Mèo</a></li>
+                                            <li><a href="#">Áo Mưa cho Chó</a></li>
+                                            <li><a href="#">Đồ Halloween cho Chó Mèo</a></li>
+                                            <li><a href="#">Đồ Noel cho Chó Mèo</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-item" id="brand">Nhãn Hiệu <span class="span1"></span> <span class="span2"></span>
+                        <div class="brand-items pet">
+                            <ul>
+                                <li><a href="#">Royal Canin</a></li>
+                                <li><a href="#">Pet Choy</a></li>
+                                <li><a href="#">Nutrience</a></li>
+                                <li><a href="#">Hikari</a></li>
+                                <li><a href="#">PetKit</a></li>
+                                <li><a href="#">Pettree</a></li>
+                                <li><a href="#">Tast of the Wild</a></li>
+                                <li><a href="#">Whiskas</a></li>
+                            </ul>
+                        </div>
+                        </li>
+                        <li class="menu-item" id="service">Dịch Vụ <span class="span1"></span> <span class="span2"></span>
+                            <div class="service-items pet">
+                                <ul>
+                                    <li><a href="#">Cho Thuê Lồng Vận Chuyển</a></li>
+                                    <li><a href="#"></a>Trông Giữ Chó Mèo, Thú Cưng</li>
+                                    <li><a href="#">Dịch Vụ Khắc Thẻ Tên Chó Mèo</a></li>
+                                    <li><a href="#">Dịch Vụ Hoả Táng Thú Cưng</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-item" id="news">Tin Tức <span class="span1"></span> <span class="span2"></span>
+                            <div class="news-items pet">
+                                <div class="news-container">
+                                    <div class="news-item knowlegde-care">
+                                        <p>Kiến Thức Nuôi Mèo Chó</p>
+                                        <ul>
+                                            <li><a href="#">Cho Mèo Ăn Gì Để Nhiều Sữa ?</a></li>
+                                            <li><a href="#">Mèo Bị Tiêu Chảy - Nguyên Nhân & Cách Chữa</a></li>
+                                            <li><a href="#">Lịch Tẩy Giun Cho Mèo [PETVET]</a></li>
+                                            <li><a href="#">Phân Biệt 7 Nhóm Chó</a></li>
+                                            <li><a href="#">Giống Chó Không Rụng Lông</a></li>
+                                            <li><a href="#">FCI là gì ?</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="news-item experiences-care">
+                                        <p>Kinh Nghiệm Vật Nuôi</p>
+                                        <ul>
+                                            <li><a href="#">Các Trạm Cứu Hộ Chó Mèo</a></li>
+                                            <li><a href="#">Nơi Nhận Nuôi Chó Mèo Hoang</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="news-item company">
+                                        <p>Tin Tức Công Ty</p>
+                                        <ul>
+                                            <li><a href="#">Hình Ảnh Khách Hàng</a></li>
+                                            <li><a href="#">Trại Cá La Hán Hải Titan</a></li>
+                                            <li><a href="#">Trại Cá Vàng Dũng Kiều</a></li>
+                                            <li><a href="#">Pet Shop Huyện Hóc Môn</a></li>
+                                            <li><a href="#">Hệ Thống Cửa Hàng PARADISE PET</a></li>
+                                            <li><a href="#">Chỉ Đường Đến PARADISE PET shop </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </header>
+    <main>
+        <section id="js-scroll" data-scroll-container>
+            <div class="sliders">
+                <div class="container-sliders">
+                    <div class="slider-item carousel-cell">
+                        <img src="./img/slider_1.png" alt="">
+                        <div class="slider-item-content">
+                            <div class="cat">
+                                <img src="./img/ezgif.com-gif-maker.gif" alt="">
+                            </div>
+                            <div class="dog">
+                                <img src="./img/ezgif.com-gif-maker (1).gif" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-item carousel-cell">
+                        <img src="./img/slider_2.png" alt="">
+                       <div class="slider-item-content">
+                            <div class="cat">
+                                <img src="./img/ezgif.com-gif-maker.gif" alt="">
+                            </div>
+                            <div class="dog">
+                                <img src="./img/ezgif.com-gif-maker (1).gif" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-item carousel-cell">
+                        <img src="./img/slider_3.png" alt="">
+                       <div class="slider-item-content">
+                            <div class="cat">
+                                <img src="./img/ezgif.com-gif-maker.gif" alt="">
+                            </div>
+                            <div class="dog">
+                                <img src="./img/ezgif.com-gif-maker (1).gif" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="js-scroll-2">
+            <div class="content-bottom-slider">
+                <div class="row contents">
+                    <div class="col-xl-4 content-item">
+                        <div class="content-one">
+                            <i class="fas fa-check"></i>
+                            Giao hàng trên <strong>toàn quốc</strong>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 content-item">
+                        <div class="content-two">
+                            <i class="fas fa-check"></i>
+                            <strong>Ưu đãi</strong> cho khách hàng cũ
+                        </div>
+                    </div>
+                    <div class="col-xl-4 content-item">
+                        <div class="content-three">
+                            <i class="fas fa-check"></i>
+                            <strong>Bảo hành </strong>và  <strong>Tư vấn </strong> miễn phí
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=section>
+            <div class="pet-care-choice">
+                <div class="row">
+                    <div class="col-lg-12 content-pet">
+                        <h2>PARADISE PET SHOP <i class="far fa-registered"></i> – CỬA HÀNG THÚ CƯNG, CHÓ MÈO UY TÍN TỪ 2012</h2>
+                    </div>
+                    <div class="col pet-care-item" data-aos="fade-left">
+                        <a href="#">
+                            <img src="./img/mua-thuc-an-cho-meo-tai-yolo-pet-shop.jpg" alt="">
+                            <div class="pet-btn">
+                                <p>Tìm hiểu</p>
+                             </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col pet-care-item" data-aos="fade-left">
+                        <a href="#">
+                            <img src="./img/mua-thuc-an-cho-cho-tai-yolo-pet-shop.jpg" alt="">
+                            <div class="pet-btn">
+                                <p>Tìm hiểu</p>
+                             </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col pet-care-item" data-aos="fade-left">
+                        <a href="#">
+                            <img src="./img/hoc-hoi-kien-thuc-cham-soc-thu-cung-yolo.jpg" alt="">
+                            <div class="pet-btn">
+                                <p>Tìm hiểu</p>
+                             </div>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="pet-care-food">
+                <div class="row row-small">
+                    <div class="col-lg-12">
+                        <h2 class="content-food"  data-aos="fade-left">
+                            <span>Thức ăn & dinh dưỡng chó mèo</span>
+                            <a href="#">Xem thêm <i class="fas fa-chevron-right"></i></a>
+                        </h2>
+                    </div>
+                    <div class="col food-item" data-aos="fade-up">
+                        <a href=""><div class="food-item-img">
+                            <img src="./img/thuc-an-hat-royal-canin-urinary-so-cho-meo-bi-than-300x300.jpg" alt="">
+                        </div>
+                        <div class="food-item-content">
+                            <p class="kind-food-pet">Thức ăn cho mèo</p>
+                            <p class="title-food">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                        </div></a>
+                    </div>
+                    <div class="col food-item" data-aos="fade-up">
+                        <a href="">
+                            <div class="food-item-img">
+                                <img src="./img/hinh-san-pham-Nutrience-Original-Healthy-Adult-Indoor-300x300.jpg" alt="">
+                            </div>
+                            <div class="food-item-content">
+                                <p class="kind-food-pet">Thức ăn cho mèo</p>
+                                <p class="title-food">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col food-item" data-aos="fade-up">
+                        <a href="#">
+                            <div class="food-item-img">
+                                <img src="./img/hinh-san-pham-nutrience-original-healthy-kitten-300x300.jpg" alt="">
+                            </div>
+                            <div class="food-item-content">
+                                <p class="kind-food-pet">Thức ăn cho mèo</p>
+                                <p class="title-food">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col food-item" data-aos="fade-up">
+                        <a href="">
+                            <div class="food-item-img">
+                                <img src="./img/hinh-san-pham-nutrience-subzero-fraser-valley-300x300.jpg" alt="">
+                            </div>
+                            <div class="food-item-content">
+                                <p class="kind-food-pet">Thức ăn cho mèo</p>
+                                <p class="title-food">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col food-item" data-aos="fade-up">
+                        <a href="">
+                            <div class="food-item-img">
+                                <img src="./img/pate-tuoi-bo-rau-cu-pet-choy-danh-cho-cho-300x300.png" alt="">
+                            </div>
+                            <div class="food-item-content">
+                                <p class="kind-food-pet">Thức ăn cho mèo</p>
+                                <p class="title-food">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col food-item" data-aos="fade-up">
+                        <a href=""><div class="food-item-img">
+                            <img src="./img/thuc-an-hat-royal-canin-urinary-so-cho-meo-bi-than-300x300.jpg" alt="">
+                        </div>
+                        <div class="food-item-content">
+                            <p class="kind-food-pet">Thức ăn cho mèo</p>
+                            <p class="title-food">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                        </div></a>
+                    </div>
+                    <div class="col food-item" data-aos="fade-up">
+                        <a href="">
+                            <div class="food-item-img">
+                                <img src="./img/hinh-san-pham-Nutrience-Original-Healthy-Adult-Indoor-300x300.jpg" alt="">
+                            </div>
+                            <div class="food-item-content">
+                                <p class="kind-food-pet">Thức ăn cho mèo</p>
+                                <p class="title-food">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col food-item" data-aos="fade-up">
+                        <a href="#">
+                            <div class="food-item-img">
+                                <img src="./img/hinh-san-pham-nutrience-original-healthy-kitten-300x300.jpg" alt="">
+                            </div>
+                            <div class="food-item-content">
+                                <p class="kind-food-pet">Thức ăn cho mèo</p>
+                                <p class="title-food">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col food-item" data-aos="fade-up">
+                        <a href="">
+                            <div class="food-item-img">
+                                <img src="./img/hinh-san-pham-nutrience-subzero-fraser-valley-300x300.jpg" alt="">
+                            </div>
+                            <div class="food-item-content">
+                                <p class="kind-food-pet">Thức ăn cho mèo</p>
+                                <p class="title-food">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col food-item" data-aos="fade-up">
+                        <a href="">
+                            <div class="food-item-img">
+                                <img src="./img/pate-tuoi-bo-rau-cu-pet-choy-danh-cho-cho-300x300.png" alt="">
+                            </div>
+                            <div class="food-item-content">
+                                <p class="kind-food-pet">Thức ăn cho mèo</p>
+                                <p class="title-food">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                            </div>
+                        </a>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+         <section id="banner">
+             <div class="pet-care-technical">
+                 <div class="row">
+                     <div class="col technical-img">
+                         <img src="./img/do-cong-nghe-cho-thu-cung-tai-yolo.png" alt="đồ công nghệ image" data-aos="fade-up">
+                     </div>
+                     <div class="col technical-content">
+                         <h3 data-aos="fade-left">Phụ kiện công nghệ dành cho thú cưng</h3>
+                         <p data-aos="fade-left">PARADISE Pet Shop là công ty chuyên phân phối các sản phẩm đồ chơi, phụ kiện công nghệ 4.0 dành cho thú cưng chính hãng tại Việt Nam.</p>
+                         <p class="bot-content" data-aos="fade-left">Với nhiều thương hiệu nổi bật và uy tín</p>
+                     </div>
+                 </div>
+             </div>
+         </section>   
+         <section class="section">
+            <div class="pet-care-product">
+                <div class="row row-small">
+                    <div class="col-lg-12">
+                        <h2 class="content-product" data-aos="fade-left">
+                            <span >Sản phẩm dành cho thú cưng</span>
+                            <a href="#">Xem thêm <i class="fas fa-chevron-right"></i></a>
+
+                        </h2>
+                    </div>
+                    <div class="col product-item" data-aos="fade-up">
+                        <a href=""><div class="product-item-img">
+                            <img src="./img/hinh-san-pham-broadline-cho-meo-duoi-2-5kg-tri-noi-ngoai-ky-sinh-trung-300x300.jpg" alt="">
+                        </div>
+                        <div class="product-item-content">
+                            <p class="kind-product-pet">Thức ăn cho mèo</p>
+                            <p class="title-product">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                        </div></a>
+                    </div>
+                    <div class="col product-item" data-aos="fade-up">
+                        <a href="">
+                            <div class="product-item-img">
+                                <img src="./img/hinh-san-pham-broadline-cho-meo-tu-2-5-kg-toi-7-5-kg-300x300.jpg" alt="">
+                            </div>
+                            <div class="product-item-content">
+                                <p class="kind-product-pet">Thức ăn cho mèo</p>
+                                <p class="title-product">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col product-item" data-aos="fade-up">
+                        <a href="">
+                            <div class="product-item-img">
+                                <img src="./img/hinh-san-pham-drontal-cho-meo-tay-giun-san-ky-sinh-trung-300x300.jpg" alt="">
+                            </div>
+                            <div class="product-item-content">
+                                <p class="kind-product-pet">Thức ăn cho mèo</p>
+                                <p class="title-product">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col product-item" data-aos="fade-up">
+                        <a href="">
+                            <div class="product-item-img">
+                                <img src="./img/hinh-san-pham-may-loc-nuoc-cho-meo-hinh-bong-hoa-xanh-duong-300x300.jpg" alt="">
+                            </div>
+                            <div class="product-item-content">
+                                <p class="kind-product-pet">Thức ăn cho mèo</p>
+                                <p class="title-product">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col product-item" data-aos="fade-up">
+                        <a href=""><div class="product-item-img">
+                            <img src="./img/tron-bo-san-pham-6-tam-loc-may-loc-nuoc-cho-meo-300x300.jpg" alt="">
+                        </div>
+                        <div class="product-item-content">
+                            <p class="kind-product-pet">Thức ăn cho mèo</p>
+                            <p class="title-product">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                        </div></a>
+                    </div>
+                    <div class="col product-item" data-aos="fade-up" data-aos-duration="3000">
+                        <a href=""><div class="product-item-img">
+                            <img src="./img/hinh-san-pham-broadline-cho-meo-duoi-2-5kg-tri-noi-ngoai-ky-sinh-trung-300x300.jpg" alt="">
+                        </div>
+                        <div class="product-item-content">
+                            <p class="kind-product-pet">Thức ăn cho mèo</p>
+                            <p class="title-product">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                        </div></a>
+                    </div>
+                    <div class="col product-item" data-aos="fade-up" data-aos-duration="3000">
+                        <a href="">
+                            <div class="product-item-img">
+                                <img src="./img/hinh-san-pham-broadline-cho-meo-tu-2-5-kg-toi-7-5-kg-300x300.jpg" alt="">
+                            </div>
+                            <div class="product-item-content">
+                                <p class="kind-product-pet">Thức ăn cho mèo</p>
+                                <p class="title-product">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col product-item" data-aos="fade-up" data-aos-duration="3000">
+                        <a href="">
+                            <div class="product-item-img">
+                                <img src="./img/hinh-san-pham-drontal-cho-meo-tay-giun-san-ky-sinh-trung-300x300.jpg" alt="">
+                            </div>
+                            <div class="product-item-content">
+                                <p class="kind-product-pet">Thức ăn cho mèo</p>
+                                <p class="title-product">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col product-item" data-aos="fade-up" data-aos-duration="3000">
+                        <a href="">
+                            <div class="product-item-img">
+                                <img src="./img/hinh-san-pham-may-loc-nuoc-cho-meo-hinh-bong-hoa-xanh-duong-300x300.jpg" alt="">
+                            </div>
+                            <div class="product-item-content">
+                                <p class="kind-product-pet">Thức ăn cho mèo</p>
+                                <p class="title-product">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col product-item" data-aos="fade-up" data-aos-duration="3000">
+                        <a href=""><div class="product-item-img">
+                            <img src="./img/tron-bo-san-pham-6-tam-loc-may-loc-nuoc-cho-meo-300x300.jpg" alt="">
+                        </div>
+                        <div class="product-item-content">
+                            <p class="kind-product-pet">Thức ăn cho mèo</p>
+                            <p class="title-product">Royal Canin Urinary S/O – Thức Ăn Hạt Cho Mèo Bị Sỏi Thận</p>
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="pet-care-info">
+                <div class="row row-small">
+                    <div class="col-lg-12">
+                        <h2 class="content-info">
+                            <span data-aos="fade-left">Kiến thức mới nhất dành cho thú cưng</span>
+                            <a href="#" data-aos="fade-left">Xem thêm bài viết <i class="fas fa-chevron-right"></i></a>
+                        </h2>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="info-sliders">
+                            <div class="info-slider-item carousel-cell" data-aos="fade-up">
+                                <div class="row">
+                                    <div class="col info-item">
+                                        <div class="info-item-img">
+                                            <img src="./img/haku.jpg" alt="">
+                                        </div>
+                                        <div class="info-item-content">
+                                            <div class="content-title">
+                                                <h5>Shop tinh dầu thiên nhiên HAKU Farm - Quận 3,TP HCM</h5>
+                                            </div>
+                                            <div class="item-content-info">
+                                                <p>Một số nghiên cứ đã chỉ ra tinh dầu thiên nhiên có tiềm năng lớn ...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col info-item">
+                                        <div class="col info-item">
+                                        <div class="info-item-img">
+                                            <img src="./img/tuoi-tho-cua-cho-300x169.png" alt="">
+                                        </div>
+                                        <div class="info-item-content">
+                                            <div class="content-title">
+                                                <h5>Tuổi thọ trung bình các giống chó hiện nay – cách tính & kéo dài tuổi thọ cho chó!</h5>
+                                            </div>
+                                            <div class="item-content-info">
+                                                <p>Tuổi thọ của chó? Chó thường sống đến bao nhiêu tuổi? Tuổi thọ của chó...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col info-item">
+                                        <div class="col info-item">
+                                        <div class="info-item-img">
+                                            <img src="./img/NEN-NUOI-CHO-HAY-MEO-300x240.jpg" alt="">
+                                        </div>
+                                        <div class="info-item-content">
+                                            <div class="content-title">
+                                                <h5>Nên nuôi chó hay mèo? Trả lời 9 câu trắc nghiệm giúp lựa chọn đúng!</h5>
+                                            </div>
+                                            <div class="item-content-info">
+                                                <p>Nên nuôi chó hay mèo? Cuộc sống căng thẳng bận rộn, vì thế nhiều bạn...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col info-item">
+                                        <div class="col info-item">
+                                        <div class="info-item-img">
+                                            <img src="./img/cac-loai-cho-thuong-so-ot-300x225.png" alt="">
+                                        </div>
+                                        <div class="info-item-content">
+                                            <div class="content-title">
+                                                <h5>Chó sợ mùi gì? TOP 12 mùi hương mà loài chó ghét nhất?</h5>
+                                            </div>
+                                            <div class="item-content-info">
+                                                <p>Chó sợ mùi gì? Những mùi hương mà loài chó ghét nhất? Chó là loài...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-slider-item carousel-cell" data-aos="fade-up">
+                                <div class="row">
+                                    <div class="col info-item">
+                                        <img src="./img/hinh-san-pham-drontal-cho-meo-tay-giun-san-ky-sinh-trung-300x300.jpg" alt="">
+                                    </div>
+                                    <div class="col info-item">
+                                        <img src="./img/hinh-san-pham-drontal-cho-meo-tay-giun-san-ky-sinh-trung-300x300.jpg" alt="">
+                                    </div>
+                                    <div class="col info-item">
+                                        <img src="./img/hinh-san-pham-drontal-cho-meo-tay-giun-san-ky-sinh-trung-300x300.jpg" alt="">
+                                    </div>
+                                    <div class="col info-item">
+                                        <img src="./img/hinh-san-pham-drontal-cho-meo-tay-giun-san-ky-sinh-trung-300x300.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-slider-item carousel-cell" data-aos="fade-up">
+                                <div class="row">
+                                    <div class="col info-item">
+                                        <img src="./img/hinh-san-pham-drontal-cho-meo-tay-giun-san-ky-sinh-trung-300x300.jpg" alt="">
+                                    </div>
+                                    <div class="col info-item">
+                                        <img src="./img/hinh-san-pham-drontal-cho-meo-tay-giun-san-ky-sinh-trung-300x300.jpg" alt="">
+                                    </div>
+                                    <div class="col info-item">
+                                        <img src="./img/hinh-san-pham-drontal-cho-meo-tay-giun-san-ky-sinh-trung-300x300.jpg" alt="">
+                                    </div>
+                                    <div class="col info-item">
+                                        <img src="./img/hinh-san-pham-drontal-cho-meo-tay-giun-san-ky-sinh-trung-300x300.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>           
+    </main>
+    <footer>
+        <section class="section">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="brand-title" data-aos="fade-right">
+                        <h3>Thương hiệu uy tín <i class="fas fa-check-circle"></i></h3>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="brand-sliders border-left-right animated-border" data-aos="fade-right">
+                        <div class="brand-slider-item carousel-cell" data-aos="fade-right" data-aos-duration="5000">
+                            <a href="#"><img src="./img/logo_brand/discus-viet-nam.png" alt=""></a>
+                        </div>
+                        <div class="brand-slider-item carousel-cell" data-aos="fade-right" data-aos-duration="5000">
+                            <a href="#"><img src="./img/logo_brand/hikari-food-logo.png" alt=""></a>
+                        </div>
+                        <div class="brand-slider-item carousel-cell" data-aos="fade-right" data-aos-duration="5000">
+                            <a href="#"><img src="./img/logo_brand/logo-hai-titan.png" alt=""></a>
+                        </div>
+                        <div class="brand-slider-item carousel-cell" data-aos="fade-right" data-aos-duration="5000">
+                            <a href="#"><img src="./img/logo_brand/may-in-theu-hai-trieu-logo.png" alt=""></a>
+                        </div>
+                        <div class="brand-slider-item carousel-cell" data-aos="fade-right" data-aos-duration="5000">
+                            <a href="#"><img src="./img/logo_brand/meo-than-tai-nekko.png" alt=""></a>
+                        </div>
+                        <div class="brand-slider-item carousel-cell" data-aos="fade-right" data-aos-duration="5000">
+                            <a href="#"><img src="./img/logo_brand/mew-pet-shop-logo.png" alt=""></a>
+                        </div>
+                        <div class="brand-slider-item carousel-cell" data-aos="fade-right" data-aos-duration="5000">
+                            <a href="#"><img src="./img/logo_brand/mizuho-logo.png" alt=""></a>
+                        </div>
+                        <div class="brand-slider-item carousel-cell" data-aos="fade-right" data-aos-duration="5000">
+                            <a href="#"><img src="./img/logo_brand/noi-that-thu-cung-petroom.png" alt=""></a>
+                        </div>
+                        <!-- copy -->
+                        <div class="brand-slider-item carousel-cell" data-aos="fade-right" data-aos-duration="5000">
+                            <a href="#"><img src="./img/logo_brand/pet-choy-logo.png" alt=""></a>
+                        </div>
+                        <div class="brand-slider-item carousel-cell" data-aos="fade-right" data-aos-duration="5000">
+                            <a href="#"><img src="./img/logo_brand/pet-tag-by-yolo.png" alt=""></a>
+                        </div>
+                        <div class="brand-slider-item carousel-cell" data-aos="fade-right" data-aos-duration="5000">
+                            <a href="#"><img src="./img/logo_brand/pet-town-logo.png" alt=""></a>
+                        </div>
+                        <div class="brand-slider-item carousel-cell" data-aos="fade-right" data-aos-duration="5000">
+                            <a href="#"><img src="./img/logo_brand/petkit-san-pham-thong-minh-cho-thu-cung.png" alt=""></a>
+                        </div>
+                        <div class="brand-slider-item carousel-cell" data-aos="fade-right" data-aos-duration="5000">
+                            <a href="#"><img src="./img/logo_brand/ranchu-viet-nam-logo.png" alt=""></a>
+                        </div>
+                        <!--  -->
+                        <div class="brand-slider-item carousel-cell" data-aos="fade-right" data-aos-duration="5000">
+                            <a href="#"><img src="./img/logo_brand/skretting-logo.png" alt=""></a>
+                        </div>
+                        <div class="brand-slider-item carousel-cell" data-aos="fade-right" data-aos-duration="5000">
+                            <a href="#"><img src="./img/logo_brand/sphynx-t-shirt-factory.png" alt=""></a>
+                        </div>
+                        <div class="brand-slider-item carousel-cell" data-aos="fade-right" data-aos-duration="5000">
+                            <a href="#"><img src="./img/logo_brand/yolo-pet-shop-tren-shopee.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="row">
+                <div class="col-lg-12 title-footer">
+                    <div class="footer-logo">
+                        <img src="./img/PetLogo.png" alt="logo" class="logo">
+                    </div>
+                    <div class="footer-slogan">
+                        <h3 data-aos="fade-left">Paradise Pet Shop</h3>
+                        <h5 data-aos="fade-right">Cửa hàng thú cưng uy tín tại Sài Gòn</h5>
+                        <h4 data-aos="fade-up">-Best For Pet-</h4>
+                    </div>
+
+                </div>
+                <div class="col-lg-12 about-footer">
+                    <div class="row">
+                        <div class="col-lg-6 about-footer-af">
+                            <div class="row shop-about">
+                                <div class="col-lg-12">
+                                    <h3>Thông tin liên hệ</h3>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="shop-about-info"><b>Hot line mua hàng : </b> <a href="#" style="display: inline;">0909080872</a> (Zalo, Viber)</div>
+                                    <div class="shop-about-info"><b>Cửa hàng :</b> 21 Lê Thị Hà, Xã Tân Xuân, Huyện Hóc Môn, Tp HCM</div>
+                                    <div class="shop-about-info"><b>Văn phòng : </b>Toà nhà Mason Golden 119 Phổ Quang,Phường 9, Quận Phú Nhuận, Tp HCM</div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="shop-about-info"><b>CSKH: </b><a href="#" style="display: inline;">0907123098</a></div>
+                                    <div class="shop-about-info"><b>Giờ mở cửa:</b> 8h20 - 21h30( Thứ 2  - Thứ 7) | 9h - 21h(Chủ nhật)</div>
+                                    <div class="shop-about-info"><b>Email:</b> ParadisePet@gmail.com</div>
+                                </div>
+                                <div class="col-lg-12 top-20">
+                                    <div class="shop-about-social">
+                                        <p>Liên kết xã hội:</p>
+                                        <a href="#" class="fb"><i class="fab fa-facebook fb"></i></a>
+                                        <a href="#" class="ins"><i class="fab fa-instagram ins"></i></a>
+                                        <a href="#" class="twt"><i class="fab fa-twitter twt"></i></a>
+                                        <a href="#" class="pin"><i class="fab fa-pinterest pin"></i></a>
+                                        <a href="#" class="ytb"><i class="fab fa-youtube ytb"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row shop-care">
+                                <div class="col-lg-12">
+                                    <h3>Chăm sóc khách hàng</h3>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="shop-care-customer"><a href="#"> Điều khoản & chính sách bảo mật</a></div>
+                                    <div class="shop-care-customer"><a href="#">Điều kiện giao dịch chung</a> </div>
+                                    <div class="shop-care-customer"><a href="#">Vận chuyển & Giao nhận</a></div>
+                                    <div class="shop-care-customer"><a href="#">Chính sách bảo hành & đổi trả</a></div>
+                                    <div class="shop-care-customer"><a href="#">Tiếp nhận & giải quyết khiếu nại</a></div>
+                                    <div class="shop-care-customer"><a href="#">Cam kết chất lượng</a></div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="shop-care-customer"><a href="#">Hướng dẫn mua hàng</a></div>
+                                    <div class="shop-care-customer"><a href="#">Bán buôn – bán sỉ</a></div>
+                                    <div class="shop-care-customer"><a href="#">Tài khoản thanh toán</a></div>
+                                    <div class="shop-care-customer"><a href="#">Sản phẩm khuyến mãi</a></div>
+                                    <div class="shop-care-customer"><a href="#">Câu hỏi thường gặp</a></div>
+                                    <div class="shop-care-customer"><a href="#">Chỉ đường đến shop</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-img">
+            <img src="./img/footer_4.jpg" alt="footer image">
+        </section>
+       <div class="fix-to-top">
+        <div class="btn-to-Top">
+            <div class="btn-container">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+       </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./Flickity/Flickity.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+      
+    </script>
+
+  </body>
+</html>
