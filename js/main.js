@@ -15,7 +15,7 @@ $('.container-sliders').flickity({
     contain:true,
     pageDots: true,
     adaptiveHeight:true,
-    autoPlay :2000,
+    // autoPlay :2000,
     on :{
      ready: function(){
        let dotted = $('.flickity-page-dots'),
@@ -75,6 +75,24 @@ $('.brand-sliders').flickity({
    }
  }
 })
+window.addEventListener('scroll',function(){
+  if(document.documentElement.scrollTop>1000)
+  {
+    var petItem =document.querySelectorAll('.pet-care-item');
+    $(petItem).removeData('aos');
+
+  }
+})
+// window.addEventListener('scroll',function(){
+//   if(document.documentElement.scrollTop>0)
+//   {
+//     this.document.querySelector('.header-container').classList.add('fix-header');
+//   }
+//   else
+//   {
+//     this.document.querySelector('.header-container').classList.remove('fix-header');
+//   }
+// })
 window.addEventListener('scroll',function(){
   if(document.documentElement.scrollTop>300){
       document.querySelector('.btn-to-Top').classList.add('fix');

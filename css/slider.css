@@ -86,6 +86,7 @@ animation: right 5s linear infinite;
 /* slider info */
 body main .pet-care-info{
   display: flex;
+  justify-content: center;
   margin: 0 120px;
   width: 100%;
  }
@@ -98,14 +99,7 @@ body main .pet-care-info{
   margin: 30px 0;
   border-bottom: 1px solid #ececec;
  }
- body main .pet-care-info .content-info a{
-     text-decoration: none;
-     color: #686868;
-     font-size: 22px;
- }
- body main .pet-care-info .content-info a:hover{
-     color: black;
- }
+
  body main .pet-care-info .info-sliders{
   width: 100%;
  }   

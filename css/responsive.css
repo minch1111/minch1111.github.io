@@ -1,0 +1,121 @@
+
+/* tablet */
+@media (min-width: 740px){
+
+}
+@media (min-width: 740px) and (max-width: 1023px){
+
+}
+
+@media (min-width:320px) and (max-width:740px)
+{
+    /* header */
+    body header .top-shipping-adver{
+        display: none;
+    }
+    body header .top-adver{
+        height: 100%;
+    }
+    body header .top-adver .adver-content{
+        padding: 10px 0;
+    }
+    body header .top-adver .adver-content p{
+        font-size: 12px;
+    }
+    body header .header-bot .bot-container{
+        margin: 0;
+    }
+    body header .header-bot .bot-container .shop-logo{
+        margin: 0;
+    }
+    body header .header-bot .bot-container .shop-logo img{
+        max-width: 70px;
+    }
+    body header .header-bot .bot-container .bot-navbar{
+        display: none;
+    }
+    body header .header-bot .bot-right .bot-search input{
+        display: none;
+    }
+    body header .header-bot .bot-right .bot-search .search-btn{
+        margin: 0;
+    width: 50px;
+    text-align: center;
+    }
+    body header .header-bot .bot-right .bot-user{
+        display: none;
+    }
+    body header .header-bot .bot-right .bot-cart{
+        margin-left: 10px;
+    }
+    body header .header-bot .bot-right .bot-cart p{
+        font-size: 0;
+    }
+    body header .header-bot .bot-right .bot-cart p i{
+        font-size: 20px;
+    }
+    body main .container-sliders{
+        height: 300px;
+    }
+    body main .container-sliders .flickity-viewport{
+        height: 300px;
+    }
+    body main .container-sliders .flickity-viewport .carousel-cell{
+        height: 300px;
+    }
+    body main .container-sliders .slider-item .slider-item-content{
+        display: none;
+    }
+    body main .container-sliders .flickity-page-dots{
+        bottom: 3px;
+    }
+
+
+    body main .pet-care-choice,
+    body main .pet-care-food{
+        margin: 0;
+        justify-content: center;
+        width: 100%;
+    }
+    body main .pet-care-food{
+        padding: 0 2px;
+    }
+    body main .pet-care-choice .care-choice-content,
+    body main .pet-care-food .row-small{
+        width: 100%;
+    }
+    body main .pet-care-choice .content-pet h2{
+        font-size: 15px;
+    }
+    body main .pet-care-choice .pet-care-item{
+        padding: 5px;
+    }
+    body main .pet-care-choice .pet-care-item .pet-btn {
+        display: none;
+    }
+    body main .pet-care-food .content-food{
+        font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    }
+    body main .pet-care-food .content-food span{
+        font-size: 18px;
+    margin-right: 100px;
+    }
+    body main .pet-care-food .content-food a{
+        font-size: 9px;
+    }
+    body main .pet-care-food .content-food a i{
+        font-size: 8px;
+    }
+    body main .pet-care-food .food-item{
+        min-width: 204px;
+    }
+    body main .pet-care-food .food-item a{
+        box-shadow: 1px 1px 1px 2px #00000029;
+    }
+    body main .pet-care-food .food-item .food-item-content .title-food{
+        font-size: 14px;
+        font-weight: 600;
+    }
+}

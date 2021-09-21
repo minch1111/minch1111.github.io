@@ -1,0 +1,248 @@
+body header{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body header a{
+    color: black;
+    text-decoration: none;
+}
+body header a:hover{
+    color: black;
+    text-decoration: none;
+}
+body header .header-top{
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body header .top-adver,
+body header .top-shipping-adver{
+    height: 41px;
+    width: 100%;
+}
+body header .top-adver{
+    background-color: #3a3939;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body header .top-adver .adver-content p,
+body header .top-shipping-adver .shipping-content p{
+    margin: 0;
+    font-weight: 500;
+}
+body header .top-adver .adver-content{
+    color:white;
+}
+
+body header .top-shipping-adver{
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+body header .top-shipping-adver .shipping-content{
+    margin-right: 60px;
+    padding-right: 10px;
+}
+body header .header-bot{
+    background-color: white;
+}
+body header .header-bot .bot-container{
+    display: flex;
+    margin: 0 50px;
+}
+body header .header-bot .bot-container .bot-left,
+body header .header-bot .bot-container .bot-right{
+    display: flex;
+    width: 50%;
+}
+body header .header-bot .bot-container .bot-right{
+    justify-content: flex-end;
+}
+body header .header-bot .bot-container .shop-logo{
+    margin-top: -60px;
+}
+body header .header-bot .bot-container .shop-logo img{
+    max-width: 120px;
+    margin: 0;
+}
+body header .header-bot .bot-container .bot-navbar ul{
+    margin: 0;
+}
+body header .header-bot .bot-container .bot-navbar ul li{
+    display: inline-block;
+    padding: 20px 0;
+    margin: 0 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .2s ease;
+    position: relative;
+}
+body header .header-bot .bot-container .bot-navbar .pets::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    transform: translateY(5px);
+    opacity: 0;
+    transition: all .5s ease;
+}
+body header .header-bot .bot-container .bot-navbar ul li i{
+    transition: all .2s ease;
+}
+body header .header-bot .bot-navbar .pets .pet-menu{
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    top: 100%;
+    left: 0;
+    background-color: #ffffffe6;
+    padding: 10px 15px;
+    box-shadow: 0 0 15px 0px #00000096;
+}
+body header .header-bot .bot-navbar .pets #dog,
+body header .header-bot .bot-navbar .pets #cat,
+body header .header-bot .bot-navbar .pets #services,
+body header .header-bot .bot-navbar .pets #news{
+    display: none;
+}
+body header .header-bot .bot-left .bot-navbar .pet-menu ul{
+    margin: 0 10px;
+}
+body header .header-bot .bot-left .bot-navbar .pet-menu p{
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: context-menu;
+    margin: 0;
+    padding-bottom: 20px;
+}
+body header .header-bot .bot-left .bot-navbar .pet-menu ul li{
+    margin: 0;
+}
+body header .header-bot .bot-left .bot-navbar .pet-menu ul li a{
+    font-weight: 300;
+
+}
+body header .header-bot .bot-navbar .pets .pet-menu .items-for-pet ul li,
+body header .header-bot .bot-navbar .pets .pet-menu .service-item ul li{
+    min-width: 255px;
+}
+body header .header-bot .bot-navbar .pets .pet-menu .clothes-pet ul li{
+    min-width: 100px;
+}
+body header .header-bot .bot-navbar .pets .pet-menu .care-knowlegde ul li,
+body header .header-bot .bot-navbar .pets .pet-menu .news-follow ul li{
+    min-width: 290px;
+}
+
+/* right */
+body header .header-bot .bot-right .bot-search{
+    display: flex;
+    align-items: center;
+}
+body header .header-bot .bot-right .bot-search input{
+    width: 400px;
+    height: 34px;
+    border: none;
+    border-bottom: 2px solid;
+    outline: none;
+}
+body header .header-bot .bot-right .bot-search .search-btn{
+    cursor: pointer;
+    width: 33px;
+    height: 33px;
+    margin-left: -33px;
+}
+body header .header-bot .bot-right .bot-search i{
+        height: 34px;
+        margin: 0;
+        font-size: 21px;
+        padding: 6px;
+}
+body header .header-bot .bot-right .bot-user{
+    display: flex;
+    align-items: center;
+    margin: 0 20px 0 60px;
+    position: relative;
+    cursor: pointer;
+}
+body header .header-bot .bot-right .bot-user i{
+    font-size: 30px;
+}
+body header .header-bot .bot-right .bot-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    position: relative;
+    cursor: pointer;
+}
+body header .header-bot .bot-right .bot-cart::after,
+body header .header-bot .bot-right .bot-user::after{
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform: translateY(5px);
+    opacity: 0;
+    transition: all .5s ease;
+}
+body header .header-bot .bot-right .bot-cart p{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* hover */
+body header .header-bot .bot-left .bot-navbar ul .pets:hover i{
+    transform: rotate(180deg);
+    transition: all .2s ease;
+}
+body header .header-bot .bot-left .bot-navbar .pets:hover::after,
+body header .header-bot .bot-right .bot-cart:hover:after,
+body header .header-bot .bot-right .bot-user:hover:after{
+    transform: translateY(0);
+    opacity: 1;
+    transition: all .5s ease;
+
+}
+
+body header .header-bot .bot-left .bot-navbar .pet-menu ul li:hover a{
+font-weight: 500;
+}
+
+body header .header-bot .bot-left .bot-navbar .dog:hover #dog,
+body header .header-bot .bot-left .bot-navbar .cat:hover #cat,
+body header .header-bot .bot-left .bot-navbar .services:hover #services,
+body header .header-bot .bot-left .bot-navbar .news:hover #news
+{
+    display: block;
+}
+body header .header-bot .bot-left .bot-navbar .pets:hover .pet-menu{
+
+    animation: to .5s ease;
+}
+@keyframes to {
+    from{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
