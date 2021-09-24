@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -18,13 +19,9 @@
    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    
    <link rel="stylesheet" href="./css/slider.css">
-   <link rel="stylesheet" href="./css/responsive.css">
+   
    <style>
-
-    body header .fix-header{
-        position: fixed;
-        z-index: 99;
-    }
+   
    </style>
   </head>
   <body>
@@ -33,160 +30,157 @@
             <img src="./img/loading_2.gif" alt="">
         </div>
     </div>
-    <header>
-        <div class="header-container mb-fix fix-header">
-            <div class="header-top">
-                <div class="header-top-container">
-                    <div class="top-adver">
-                        <div class="adver-content">
-                            <p><b>KHUYẾN MÃI 20% </b> ngay tại <b>PARADISE PET</b> khi nhập mã PARPET20</p>
-                        </div>
+    <header class="header">
+       
+            <div class="header-sales">
+                <p><span>GIẢM NGAY 20%</span> khi đặt hàng tại <span>PARADISE PET</span> khi nhập mã PARPET20</p>
+            </div>
+            <div class="header-shipping">
+                <p><span>FREE SHIP</span> với đơn hàng trên <span>300k</span></p>
+            </div>
+            <div class="header_main container-fluid">
+                <div class="header_main-logo">
+                    <a href="#">
+                        <img src="./img/logoPet.png" alt="logo">
+                    </a>
+                </div>
+                <div class="header_main-navbar">
+                    <ul>
+                        <li class="navbar_item after"><a href="#">Chó<i class="fas fa-angle-down"></i></a></i>
+                            <div id="dog">
+                                <div class="navbar_item-menu">
+                                    <div class="item_menu-pet">
+                                        <p>Dinh dưỡng và chăm sóc</p>
+                                        <ul>
+                                            <li><a href="#">Thức ăn cho Chó</a></li>
+                                            <li><a href="#">Dụng cụ ăn uống cho Chó</a></li>
+                                            <li><a href="#">Chuồng cho Chó</a></li>
+                                            <li><a href="#">Thuốc tẩy giun, sán cho Chó</a></li>
+                                        </ul>                                    
+                                    </div>
+                                    <div class="item_menu-clothe">
+                                        <p>Trang Phục</p>
+                                        <ul>
+                                            <li><a href="#">Áo</a></li>
+                                            <li><a href="#">Quần</a></li>
+                                            <li><a href="#">Váy Đầm</a></li>
+                                            <li><a href="#">Giày Dép</a></li>
+                                            <li><a href="#">Kính</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar_item after">Mèo <i class="fas fa-angle-down"></i>
+                            <div id="cat">
+                                <div class="navbar_item-menu">
+                                    <div class="item_menu-pet">
+                                        <p>Dinh dưỡng và chăm sóc</p>
+                                        <ul>
+                                            <li><a href="#">Thức ăn cho Mèo</a></li>
+                                            <li><a href="#">Dụng cụ ăn uống cho Mèo</a></li>
+                                            <li><a href="#">Chuồng cho Mèo</a></li>
+                                            <li><a href="#">Thuốc tẩy giun, sán cho Mèo</a></li>
+                                        </ul>                                    
+                                    </div>
+                                    <div class="item_menu-clothe">
+                                        <p>Trang Phục</p>
+                                        <ul>
+                                            <li><a href="#">Áo</a></li>
+                                            <li><a href="#">Quần</a></li>
+                                            <li><a href="#">Váy Đầm</a></li>
+                                            <li><a href="#">Giày Dép</a></li>
+                                            <li><a href="#">Kính</a></li>
+                                            <li><a href="#">Áo</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div></li>
+                        <li class="navbar_item after">Dịch Vụ <i class="fas fa-angle-down"></i>
+                            <div id="services">
+                                <div class="navbar_item-menu">
+                                   <div class="item_menu-pet">
+                                    <p>Dịch vụ cho thú cưng </p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Cho thuê lồng vận chuyển</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Trông giữ Thú Cưng</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Khắc thẻ tên cho Thú Cưng</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Hoả táng Thú Cưng</a>
+                                        </li>
+                                    </ul>
+                                   </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar_item after">Tin Tức <i class="fas fa-angle-down"></i>
+                            <div id="news">
+                                <div class="navbar_item-menu">
+                                    <div class="item_menu-pet">
+                                        <p>Kiến Thức Thú Cưng</p>
+                                        <ul>
+                                            <li><a href="#">Phân biệt 7 giống Chó</a></li>
+                                            <li><a href="#">Lịch tẩy giun cho Mèo</a></li>
+                                            <li><a href="#">Cho Mèo mẹ ăn gì để nhiều sữa ?</a></li>
+                                            <li><a href="#">Giống Chó không rụng lông</a></li>
+                                            <li><a href="#">FCI là gì ?</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="item_menu-follow">
+                                        <p>Các thông tin liên quan</p>
+                                        <ul>
+                                            <li><a href="#">Các trạm cứu hộ Chó Mèo</a></li>
+                                            <li><a href="#">Nơi nhận nuôi Chó Mèo hoang</a></li>
+                                            <li><a href="#">Hệ thống cửa hàng</a></li>
+                                            <li><a href="#">Chỉ đường đến PARADISE Pet Shop </a></li>
+                                            <li><a href="#">Về chúng tôi</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header_main-find">
+                    <input type="text" placeholder="Tìm kiếm ...">
+                    <div class="find_btn"><i class="fas fa-search"></i></div>
+                    <div class="find_btn-2"><i class="fas fa-search"></i></div>
+                </div>
+                <div class="header_main-user after">
+                    <div class="user-login">
+                        <i class="fas fa-user"></i>
                     </div>
-                    <div class="top-shipping-adver">
-                        <div class="shipping-content">
-                            <p><b>Miễn Phí </b> vận chuyển với <b>Hoá Đơn trên 300k</b></p>
-                        </div>
+                </div>
+                <div class="header_main-cart after">
+                    <div class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+                <div class="header_main-menuX">
+                    <div class="menuX">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
                 </div>
             </div>
-            <div class="header-bot">
-                <div class="container-fluid">
-                    <div class="bot-container">
-                       <div class="bot-left">
-                            <div class="shop-logo">
-                                <a href="index.html">
-                                    <img src="./img/logoPet.png" alt="logo">
-                                </a>
-                            </div>
-                        <div class="bot-navbar">
-                            <ul>
-                                <li class="pets dog">
-                                    Chó <i class="fas fa-angle-down"></i>
-                                    <div id="dog">
-                                        <div class="pet-menu">
-                                            <div class="items-for-pet">
-                                                <p>Dinh dưỡng và chăm sóc</p>
-                                                <ul>
-                                                    <li><a href="#">Thức ăn cho Chó</a></li>
-                                                    <li><a href="#">Dụng cụ ăn uống cho Chó</a></li>
-                                                    <li><a href="#">Chuồng cho Chó</a></li>
-                                                    <li><a href="#">Thuốc tẩy giun, sán cho Chó</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="clothes-pet">
-                                                <p>Trang phục</p>
-                                                <ul>
-                                                    <li><a href="#">Áo</a></li>
-                                                    <li><a href="#">Quần</a></li>
-                                                    <li><a href="#">Váy Đầm</a></li>
-                                                    <li><a href="#">Giày Dép</a></li>
-                                                    <li><a href="#">Kính</a></li>
-                                                    <li><a href="#">Áo</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="pets cat">
-                                    Mèo <i class="fas fa-angle-down"></i>
-                                    <div id="cat">
-                                        <div class="pet-menu">
-                                            <div class="items-for-pet">
-                                                <p>Dinh dưỡng và chăm sóc</p>
-                                                <ul>
-                                                    <li><a href="#">Thức ăn cho Mèo</a></li>
-                                                    <li><a href="#">Dụng cụ ăn uống cho Mèo</a></li>
-                                                    <li><a href="#">Cát vệ sinh cho Mèo</a></li>
-                                                    <li><a href="#">Khay, Nhà vệ sinh cho Mèo</a></li>
-                                                    <li><a href="#">Chuồng cho Mèo</a></li>
-                                                    <li><a href="#">Thuốc tẩy giun, sán cho Mèo</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="clothes-pet">
-                                                <p>Trang phục</p>
-                                                <ul>
-                                                    <li><a href="#">Áo</a></li>
-                                                    <li><a href="#">Quần</a></li>
-                                                    <li><a href="#">Váy Đầm</a></li>
-                                                    <li><a href="#">Giày Dép</a></li>
-                                                    <li><a href="#">Kính</a></li>
-                                                    <li><a href="#">Áo</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="pets services">
-                                    Dịch Vụ <i class="fas fa-angle-down"></i>
-                                    <div id="services">
-                                        <div class="pet-menu">
-                                           <div class="service-item">
-                                            <p>Dịch vụ cho thú cưng </p>
-                                            <ul>
-                                                <li>
-                                                    <a href="#">Cho thuê lồng vận chuyển</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Trông giữ Thú Cưng</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Khắc thẻ tên cho Thú Cưng</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Hoả táng Thú Cưng</a>
-                                                </li>
-                                            </ul>
-                                           </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="pets news">
-                                    Tin Tức <i class="fas fa-angle-down"></i>
-                                    <div id="news">
-                                        <div class="pet-menu">
-                                            <div class="care-knowlegde">
-                                                <p>Kiến Thức Thú Cưng</p>
-                                                <ul>
-                                                    <li><a href="#">Phân biệt 7 giống Chó</a></li>
-                                                    <li><a href="#">Lịch tẩy giun cho Mèo</a></li>
-                                                    <li><a href="#">Cho Mèo mẹ ăn gì để nhiều sữa ?</a></li>
-                                                    <li><a href="#">Giống Chó không rụng lông</a></li>
-                                                    <li><a href="#">FCI là gì ?</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="news-follow">
-                                                <p>Các thông tin liên quan</p>
-                                                <ul>
-                                                    <li><a href="#">Các trạm cứu hộ Chó Mèo</a></li>
-                                                    <li><a href="#">Nơi nhận nuôi Chó Mèo hoang</a></li>
-                                                    <li><a href="#">Hệ thống cửa hàng</a></li>
-                                                    <li><a href="#">Chỉ đường đến PARADISE Pet Shop </a></li>
-                                                    <li><a href="#">Về chúng tôi</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                       </div>
-                        <div class="bot-right">
-                            <div class="bot-search">
-                                <input type="text" placeholder="Find somethings ...">
-                                <div class="search-btn"><i class="fas fa-search"></i></div>
-                            </div>
-                            <div class="bot-user">
-                                <i class="fas fa-user"></i>
-                            </div>
-                            <div class="bot-cart">
-                                <p>Giỏ Hàng <b>0</b> <i class="fas fa-shopping-cart"></i></p>    
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </header>
+    <div class="offset_height">
+
+    </div>
+    <div class="header_search hiden">
+        <div class="header_search-container padd-20" >
+            <input type="text" placeholder="Tìm kiếm ...">
+            <div class="find_btn-3"><i class="fas fa-search"></i></div>
+        </div>
+    </div>
+    
     <main>
         <section id="js-scroll" data-scroll-container>
             <div class="sliders">
@@ -251,13 +245,196 @@
                 </div>
             </div>
         </section>
+        <section class="header-fix">
+            <div class="header_menu-container">
+                <ul>
+                    <li>
+                        <div class="menu item_user">
+                             <span><i class="fas fa-user"></i> Accout</span>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu item_dog">
+                            <span>Chó</span>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu item_cat">
+                            <span>Mèo</span>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu item_services">
+                            <span>Dịch vụ</span>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu item_news">
+                            <span>Tin tức</span>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </li>
+                </ul>
+                <p><b>FREESHIP</b> với đơn hàng trên 300k</p>
+            </div>
+            <div class="header_menu-list">
+                <div class="menu_list user_menu">
+                    <ul>
+                        <li class="back"><a href="#"><i class="fas fa-arrow-left"></i><span>Account</span></a></li>
+                        <li><a href="#">Đăng kí</a></li>
+                        <li><a href="#">Đăng nhập</a></li>
+                    </ul>
+                </div>
+                <div class="menu_list dog_menu">
+                    <ul>
+                        <li class="back"><a href="#"><i class="fas fa-arrow-left"></i><span>Chó</span></a></li>
+                        <li>
+                            <div class="menu_list-choice"><a href="index.html"><span>Dinh Dưỡng & Chăm Sóc</span></a>
+                                <i class="fas fa-chevron-down menu_item-1"></i></div></li>
+                        </li>
+                        <ul class="menu_item item-1">
+                            <li><a href="#">Thức ăn cho Chó</a></li>
+                            <li><a href="#">Dụng cụ ăn uống cho Chó</a></li>
+                            <li><a href="#">Chuồng cho Chó</a></li>
+                            <li><a href="#">Thuốc tẩy giun, sán cho Chó</a></li>
+                        </ul>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="menu_list-choice"><a href="#"><span>Trang Phục</span></a>
+                                <i class="fas fa-chevron-down menu_item-2"></i></div></li>
+                        <ul class="menu_item item-2">
+                            <li><a href="#">Áo</a></li>
+                            <li><a href="#">Quần</a></li>
+                            <li><a href="#">Váy Đầm</a></li>
+                            <li><a href="#">Giày Dép</a></li>
+                            <li><a href="#">Kính</a></li>
+                        </ul>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <div class="menu_list cat_menu">
+                    <ul>
+                        <li class="back"><a href="#"><i class="fas fa-arrow-left"></i><span>Mèo</span></a></li>
+                        <li>
+                            <div class="menu_list-choice"><a href="index.html"><span>Dinh Dưỡng & Chăm Sóc</span></a>
+                                <i class="fas fa-chevron-down menu_item-1"></i></div></li>
+                        </li>
+                        <ul class="menu_item item-1">
+                            <li><a href="#">Thức ăn cho Mèo</a></li>
+                            <li><a href="#">Dụng cụ ăn uống cho Mèo</a></li>
+                            <li><a href="#">Chuồng cho Mèo</a></li>
+                            <li><a href="#">Thuốc tẩy giun, sán cho Mèo</a></li>
+                        </ul>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="menu_list-choice"><a href="#"><span>Trang Phục</span></a>
+                                <i class="fas fa-chevron-down menu_item-2"></i></div></li>
+                        <ul class="menu_item item-2">
+                            <li><a href="#">Áo</a></li>
+                            <li><a href="#">Quần</a></li>
+                            <li><a href="#">Váy Đầm</a></li>
+                            <li><a href="#">Giày Dép</a></li>
+                            <li><a href="#">Kính</a></li>
+                        </ul>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <div class="menu_list services_menu">
+                    <ul>
+                        <li class="back"><a href="#"><i class="fas fa-arrow-left"></i><span>Dịch Vụ</span></a></li>
+                        <li>
+                            <div class="menu_list-choice"><a href="#"><span>Dịch Vụ cho Thú Cưng</span></a>
+                                <i class="fas fa-chevron-down menu_item-1"></i></div></li>
+                        <ul class="menu_item item-1">
+                            <li>
+                                <a href="#">Cho thuê lồng vận chuyển</a>
+                            </li>
+                            <li>
+                                <a href="#">Trông giữ Thú Cưng</a>
+                            </li>
+                            <li>
+                                <a href="#">Khắc thẻ tên cho Thú Cưng</a>
+                            </li>
+                            <li>
+                                <a href="#">Hoả táng Thú Cưng</a>
+                            </li>
+                        </ul>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <div class="menu_list news_menu">
+                    <ul>
+                        <li class="back"><a href="#"><i class="fas fa-arrow-left"></i><span>Tin Tức</span></a></li>
+                        <li><a href="#"><span>Kiến Thức Thú Cưng</span></a></li>
+                        <li><a href="#">Phân biệt 7 giống Chó</a></li>
+                        <li><a href="#">Lịch tẩy giun cho Mèo</a></li>
+                        <li><a href="#">Cho Mèo mẹ ăn gì để nhiều sữa ?</a></li>
+                        <li><a href="#">Giống Chó không rụng lông</a></li>
+                        <li><a href="#">FCI là gì ?</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#"><span>Các Thông Tin Liên Quan</span></a></li>
+                        <li><a href="#">Các trạm cứu hộ Chó Mèo</a></li>
+                        <li><a href="#">Nơi nhận nuôi Chó Mèo hoang</a></li>
+                        <li><a href="#">Hệ thống cửa hàng</a></li>
+                        <li><a href="#">Chỉ đường đến PARADISE Pet Shop </a></li>
+                        <li><a href="#">Về chúng tôi</a></li>
+                    </ul>
+                    <div>
+                        <img src="./img/thank-you.jpg" alt="thank you image" style="height: 150px;">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </section>
+        <section class="header_cart-sidebar">
+            <div class="cart_sidebar-container">
+                <div class="cart_close">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="cart_item-title text-center padd-20">
+                    <h4>GIỎ HÀNG</h4>
+                </div>
+                <div class="cart_item-nothing text-center padd-20">
+                    <p><span>Chưa có sản phẩm nào trong giỏ</span></p>
+                </div>
+                <div class="cart-sidebar-bank text-center">
+                    <span><i>Các hình thức thanh toán</i></span>
+                    <div class="row margin-0">
+                        <div class="col-4">
+                            <div class="bank_item" title="thanh toán qua PayPal">
+                                <i class="fab fa-cc-paypal"></i>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="bank_item" title="thanh toán khi nhận hàng">
+                                <i class="fas fa-shipping-fast"></i>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="bank_item" title="chuyển khoản">
+                                <i class="fas fa-money-check-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
         <section class=section>
             <div class="pet-care-choice">
                 <div class="row care-choice-content">
                     <div class="col-lg-12 col-sm-12 content-pet">
                         <h2>PARADISE PET SHOP <i class="far fa-registered"></i>  <p>CỬA HÀNG THÚ CƯNG, CHÓ MÈO UY TÍN TỪ 2012</p></h2>
                     </div>
-                    <div class="col pet-care-item" data-aos="fade-left">
+                    <div class="col pet-care-item" >
                         <a href="#">
                             <img src="./img/mua-thuc-an-cho-meo-tai-yolo-pet-shop.jpg" alt="">
                             <div class="pet-btn">
@@ -266,7 +443,7 @@
                         </a>
                         
                     </div>
-                    <div class="col pet-care-item" data-aos="fade-left">
+                    <div class="col pet-care-item" >
                         <a href="#">
                             <img src="./img/mua-thuc-an-cho-cho-tai-yolo-pet-shop.jpg" alt="">
                             <div class="pet-btn">
@@ -275,7 +452,7 @@
                         </a>
                         
                     </div>
-                    <div class="col pet-care-item" data-aos="fade-left">
+                    <div class="col pet-care-item" >
                         <a href="#">
                             <img src="./img/hoc-hoi-kien-thuc-cham-soc-thu-cung-yolo.jpg" alt="">
                             <div class="pet-btn">
@@ -291,7 +468,7 @@
             <div class="pet-care-food">
                 <div class="row row-small">
                     <div class="col-lg-12">
-                        <h2 class="content-food"  data-aos="fade-left">
+                        <h2 class="content-food"  >
                             <span>Thức ăn & dinh dưỡng chó mèo</span>
                             <a href="#">Xem thêm <i class="fas fa-chevron-right"></i></a>
                         </h2>
@@ -415,9 +592,9 @@
                          <img src="./img/do-cong-nghe-cho-thu-cung-tai-yolo.png" alt="đồ công nghệ image" data-aos="fade-up">
                      </div>
                      <div class="col technical-content">
-                         <h3 data-aos="fade-left">Phụ kiện công nghệ dành cho thú cưng</h3>
-                         <p data-aos="fade-left">PARADISE Pet Shop là công ty chuyên phân phối các sản phẩm đồ chơi, phụ kiện công nghệ 4.0 dành cho thú cưng chính hãng tại Việt Nam.</p>
-                         <p class="bot-content" data-aos="fade-left">Với nhiều thương hiệu nổi bật và uy tín</p>
+                         <h3 >Phụ kiện công nghệ dành cho thú cưng</h3>
+                         <p >PARADISE Pet Shop là công ty chuyên phân phối các sản phẩm đồ chơi, phụ kiện công nghệ 4.0 dành cho thú cưng chính hãng tại Việt Nam.</p>
+                         <p class="bot-content" >Với nhiều thương hiệu nổi bật và uy tín</p>
                      </div>
                  </div>
              </div>
@@ -426,7 +603,7 @@
             <div class="pet-care-product">
                 <div class="row row-small">
                     <div class="col-lg-12">
-                        <h2 class="content-product" data-aos="fade-left">
+                        <h2 class="content-product" >
                             <span >Sản phẩm dành cho thú cưng</span>
                             <a href="#">Xem thêm <i class="fas fa-chevron-right"></i></a>
 
@@ -542,7 +719,7 @@
                 <div class="row row-small">
                     <div class="col-lg-12">
                         <h2 class="content-info">
-                            <span data-aos="fade-left">Kiến thức mới nhất dành cho thú cưng</span>
+                            <span >Kiến thức mới nhất dành cho thú cưng</span>
                         </h2>
                     </div>
                     <div class="col-lg-12">
@@ -712,7 +889,7 @@
                         <img src="./img/PetLogo.png" alt="logo" class="logo">
                     </div>
                     <div class="footer-slogan">
-                        <h3 data-aos="fade-left">Paradise Pet Shop</h3>
+                        <h3 >Paradise Pet Shop</h3>
                         <h5 data-aos="fade-right">Cửa hàng thú cưng uy tín tại Sài Gòn</h5>
                         <h4 data-aos="fade-up">-Best For Pet-</h4>
                     </div>
@@ -776,14 +953,14 @@
         </section>
         <section class="footer-img">
         </section>
-       <div class="fix-to-top">
+       <!-- <div class="fix-to-top">
         <div class="btn-to-Top">
             <div class="btn-container">
                 <span></span>
                 <span></span>
             </div>
         </div>
-       </div>
+       </div> -->
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -792,8 +969,166 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/main.js"></script>
     <script>
-      
+//         if(document.querySelector('.header_main-menuX').style.display==="none"){
+//   $('.header-fix').removeClass('open');
+// } 
+     const btnFind = $('.find_btn-2');
+     btnFind.on('click',()=>{
+         $('.header_search').toggleClass('open_down');
+     })
     </script>
 
   </body>
+  <!-- <header class="fix-header">
+        <div class="header-container mb-fix ">
+            <div class="header-top">
+                <div class="header-top-container">
+                    <div class="top-adver">
+                        <div class="adver-content">
+                            <p><b>KHUYẾN MÃI 20% </b> ngay tại <b>PARADISE PET</b> khi nhập mã PARPET20</p>
+                        </div>
+                    </div>
+                    <div class="top-shipping-adver">
+                        <div class="shipping-content">
+                            <p><b>Miễn Phí </b> vận chuyển với <b>Hoá Đơn trên 300k</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bot">
+                    <div class="bot-container">
+                       <div class="bot-left">
+                            <div class="shop-logo">
+                                <a href="index.html">
+                                    <img src="./img/logoPet.png" alt="logo">
+                                </a>
+                            </div>
+                        <div class="bot-navbar">
+                            <ul>
+                                <li class="pets dog">
+                                    Chó <i class="fas fa-angle-down"></i>
+                                    <div id="dog">
+                                        <div class="pet-menu">
+                                            <div class="items-for-pet">
+                                                <p>Dinh dưỡng và chăm sóc</p>
+                                                <ul>
+                                                    <li><a href="#">Thức ăn cho Chó</a></li>
+                                                    <li><a href="#">Dụng cụ ăn uống cho Chó</a></li>
+                                                    <li><a href="#">Chuồng cho Chó</a></li>
+                                                    <li><a href="#">Thuốc tẩy giun, sán cho Chó</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="clothes-pet">
+                                                <p>Trang phục</p>
+                                                <ul>
+                                                    <li><a href="#">Áo</a></li>
+                                                    <li><a href="#">Quần</a></li>
+                                                    <li><a href="#">Váy Đầm</a></li>
+                                                    <li><a href="#">Giày Dép</a></li>
+                                                    <li><a href="#">Kính</a></li>
+                                                    <li><a href="#">Áo</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="pets cat">
+                                    Mèo <i class="fas fa-angle-down"></i>
+                                    <div id="cat">
+                                        <div class="pet-menu">
+                                            <div class="items-for-pet">
+                                                <p>Dinh dưỡng và chăm sóc</p>
+                                                <ul>
+                                                    <li><a href="#">Thức ăn cho Mèo</a></li>
+                                                    <li><a href="#">Dụng cụ ăn uống cho Mèo</a></li>
+                                                    <li><a href="#">Cát vệ sinh cho Mèo</a></li>
+                                                    <li><a href="#">Khay, Nhà vệ sinh cho Mèo</a></li>
+                                                    <li><a href="#">Chuồng cho Mèo</a></li>
+                                                    <li><a href="#">Thuốc tẩy giun, sán cho Mèo</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="clothes-pet">
+                                                <p>Trang phục</p>
+                                                <ul>
+                                                    <li><a href="#">Áo</a></li>
+                                                    <li><a href="#">Quần</a></li>
+                                                    <li><a href="#">Váy Đầm</a></li>
+                                                    <li><a href="#">Giày Dép</a></li>
+                                                    <li><a href="#">Kính</a></li>
+                                                    <li><a href="#">Áo</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="pets services">
+                                    Dịch Vụ <i class="fas fa-angle-down"></i>
+                                    <div id="services">
+                                        <div class="pet-menu">
+                                           <div class="service-item">
+                                            <p>Dịch vụ cho thú cưng </p>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Cho thuê lồng vận chuyển</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Trông giữ Thú Cưng</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Khắc thẻ tên cho Thú Cưng</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Hoả táng Thú Cưng</a>
+                                                </li>
+                                            </ul>
+                                           </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="pets news">
+                                    Tin Tức <i class="fas fa-angle-down"></i>
+                                    <div id="news">
+                                        <div class="pet-menu">
+                                            <div class="care-knowlegde">
+                                                <p>Kiến Thức Thú Cưng</p>
+                                                <ul>
+                                                    <li><a href="#">Phân biệt 7 giống Chó</a></li>
+                                                    <li><a href="#">Lịch tẩy giun cho Mèo</a></li>
+                                                    <li><a href="#">Cho Mèo mẹ ăn gì để nhiều sữa ?</a></li>
+                                                    <li><a href="#">Giống Chó không rụng lông</a></li>
+                                                    <li><a href="#">FCI là gì ?</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="news-follow">
+                                                <p>Các thông tin liên quan</p>
+                                                <ul>
+                                                    <li><a href="#">Các trạm cứu hộ Chó Mèo</a></li>
+                                                    <li><a href="#">Nơi nhận nuôi Chó Mèo hoang</a></li>
+                                                    <li><a href="#">Hệ thống cửa hàng</a></li>
+                                                    <li><a href="#">Chỉ đường đến PARADISE Pet Shop </a></li>
+                                                    <li><a href="#">Về chúng tôi</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                       </div>
+                        <div class="bot-right">
+                            <div class="bot-search">
+                                <input type="text" placeholder="Find somethings ...">
+                                <div class="search-btn"><i class="fas fa-search"></i></div>
+                            </div>
+                            <div class="bot-user">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="bot-cart">
+                                <p>Giỏ Hàng <b>0</b> <i class="fas fa-shopping-cart"></i></p>    
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </header> -->
 </html>

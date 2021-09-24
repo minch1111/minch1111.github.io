@@ -1,121 +1,114 @@
-
-/* tablet */
-@media (min-width: 740px){
-
-}
-@media (min-width: 740px) and (max-width: 1023px){
-
-}
-
-@media (min-width:320px) and (max-width:740px)
-{
-    /* header */
-    body header .top-shipping-adver{
+/* 320- 767 */
+@media (min-width:320px) and (max-width:767px)
+{   
+    .hiden,body header .header_main-find .find_btn-2,
+    body main .header_cart-sidebar{
+        display: block !important;
+    }
+    body .offset_height{
+        height: 100px !important;
+    }
+    body header .header-shipping{
         display: none;
     }
-    body header .top-adver{
-        height: 100%;
+    body header .header_main{
+        justify-content: space-between;
     }
-    body header .top-adver .adver-content{
-        padding: 10px 0;
-    }
-    body header .top-adver .adver-content p{
-        font-size: 12px;
-    }
-    body header .header-bot .bot-container{
+    body header .header_main-logo{
         margin: 0;
+        width: 61px;
     }
-    body header .header-bot .bot-container .shop-logo{
+    body header .header_main-navbar{
+        display: none;
+    }
+    body header .header_main-find{
+        width: 50%;
+        justify-content: flex-end;
+    }
+    body header .header_main-find input{
+        display: none;
+    }
+    body header .header_main-find .find_btn{
         margin: 0;
-    }
-    body header .header-bot .bot-container .shop-logo img{
-        max-width: 70px;
-    }
-    body header .header-bot .bot-container .bot-navbar{
         display: none;
     }
-    body header .header-bot .bot-right .bot-search input{
+    body header .header_main-find .find_btn-2 i,
+    body .header_search .header_search-container .find_btn-3 i,
+    body header .header_main-cart .cart i{
+        font-size: 24px;
+    }
+    body header .header_main-user{
         display: none;
     }
-    body header .header-bot .bot-right .bot-search .search-btn{
-        margin: 0;
-    width: 50px;
-    text-align: center;
+    body header .header_main-cart{
+        justify-content: flex-end;
+    margin: 0;
     }
-    body header .header-bot .bot-right .bot-user{
+    body header .after::after{
         display: none;
     }
-    body header .header-bot .bot-right .bot-cart{
-        margin-left: 10px;
-    }
-    body header .header-bot .bot-right .bot-cart p{
-        font-size: 0;
-    }
-    body header .header-bot .bot-right .bot-cart p i{
-        font-size: 20px;
-    }
-    body main .container-sliders{
-        height: 300px;
-    }
-    body main .container-sliders .flickity-viewport{
-        height: 300px;
-    }
-    body main .container-sliders .flickity-viewport .carousel-cell{
-        height: 300px;
-    }
-    body main .container-sliders .slider-item .slider-item-content{
-        display: none;
-    }
-    body main .container-sliders .flickity-page-dots{
-        bottom: 3px;
-    }
-
-
-    body main .pet-care-choice,
-    body main .pet-care-food{
-        margin: 0;
-        justify-content: center;
-        width: 100%;
-    }
-    body main .pet-care-food{
-        padding: 0 2px;
-    }
-    body main .pet-care-choice .care-choice-content,
-    body main .pet-care-food .row-small{
-        width: 100%;
-    }
-    body main .pet-care-choice .content-pet h2{
-        font-size: 15px;
-    }
-    body main .pet-care-choice .pet-care-item{
-        padding: 5px;
-    }
-    body main .pet-care-choice .pet-care-item .pet-btn {
-        display: none;
-    }
-    body main .pet-care-food .content-food{
-        font-size: 14px;
-    justify-content: space-between;
+    body header .header_main-menuX{
+        width: 40px;
+    height: 100%;
+    display: flex;
     align-items: center;
+    justify-content: center;
     }
-    body main .pet-care-food .content-food span{
-        font-size: 18px;
-    margin-right: 100px;
+    body header .header_main-menuX .menuX{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        overflow: hidden;
     }
-    body main .pet-care-food .content-food a{
-        font-size: 9px;
+    body header .header_main-menuX .menuX span{
+        width: 100%;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    z-index: 99999;
     }
-    body main .pet-care-food .content-food a i{
-        font-size: 8px;
+    body header .header_main-menuX .menuX span:nth-child(1){
+        top:25%;
+        transition: all .2s ease;
     }
-    body main .pet-care-food .food-item{
-        min-width: 204px;
+    body header .header_main-menuX .menuX span:nth-child(2){
+        top:50%;
+        transition: all .2s ease;
     }
-    body main .pet-care-food .food-item a{
-        box-shadow: 1px 1px 1px 2px #00000029;
+    body header .header_main-menuX .menuX span:nth-child(3){
+        top:75%;
+        transition: all .2s ease;
+    }    
+    body header .header_main-menuX .open span:nth-child(1){
+        top: 50%;
+        /* transition: top 10s ease; */
+        transform: rotate(45deg);
+        transition: transform .2s .1s ease;
     }
-    body main .pet-care-food .food-item .food-item-content .title-food{
-        font-size: 14px;
-        font-weight: 600;
+    body header .header_main-menuX .open span:nth-child(2){
+        /* right: 50%;
+        width: 0px; */
+        transform: rotate(135deg);
+        transition:transform .2s .1s ease;
+    }
+    body header .header_main-menuX .open span:nth-child(3){
+        top: 50%;
+        /* transition: top 10s ease; */
+        transform: rotate(135deg);
+        transition:transform .2s .1s ease;
+    }
+    /*  */
+}
+@media (min-width:768px) and (max-width:1024px){
+    body header .header-shipping{
+        display: none;
+    }
+    body header .after::after{
+        display: none;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1299px){
+    body main .header-fix{
+        display: none !important;
     }
 }

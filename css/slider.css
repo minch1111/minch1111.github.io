@@ -7,9 +7,9 @@ body main .container-sliders img{
     height: 100%;
 }    
 .carousel-cell{
-height: 600px;
-width: 93%;
-margin-right: 10px;
+height: 100%;
+width: 100%;
+/* margin-right: 10px; */
 }
 .flickity-prev-next-button
 {

@@ -25,16 +25,26 @@ img{
     margin: auto;
     display: block;
 }
-a{
+body a{
     display: block;
     text-decoration: none;
     color: #686868;
 }
-a:hover{
+body a:hover{
     text-decoration: none;
+    color: #202020;
 }
 .top-20{
     margin-top: 20px;
+}
+.margin-0{
+    margin: 0;
+}
+.padd-20{
+    padding: 20px;
+}
+.text-center{
+    text-align: center;
 }
 body .loading{
     width: 100%;
@@ -71,6 +81,9 @@ body .loading .load img{
 
 /* slider */
 /*content bottom slider*/
+body main{
+    width: 100%;
+}
 body main .content-bottom-slider{
     width: 100%;
     height: auto;
@@ -89,7 +102,7 @@ body main .content-bottom-slider .contents{
 body main .content-bottom-slider .contents .content-item{
     font-size: 19px;
     margin: 5px 0;
-    transition: all 1s ease;
+    transition: all .2s ease;
     cursor: pointer;
     text-align: center;
 }
