@@ -15,7 +15,7 @@ $('.container-sliders').flickity({
     contain:true,
     pageDots: true,
     adaptiveHeight:true,
-    // autoPlay :2000,
+    autoPlay :2000,
     on :{
      ready: function(){
        let dotted = $('.flickity-page-dots'),
