@@ -175,7 +175,7 @@
     body main .pet-care-info .info-sliders,
     body main .pet-care-info .info-sliders .flickity-viewport,
     body main .pet-care-info .info-sliders .carousel-cell{
-        height: 600px;
+        height: 350px;
     }
     body main .pet-care-info .info-sliders .info-item{
         margin: 0 5px;
@@ -187,13 +187,18 @@
     body footer .shop-care .shop-care-customer::after{
         display: none;
     }
+    body main .pet-care-info .info_item .info-item-content .item-content-info{
+        transform: translateY(0);
+    }
     body footer .brand-sliders .carousel-cell{
         padding: 5px 10px;
     }
     body footer .brand-sliders .brand-slider-item a img{
         filter: grayscale(0);
     }
-    body footer .about-footer{
+    body footer .about-footer,
+    body footer .about-footer .care-footer{
+        padding-top: 30px;
         background-color: black;
     }
     body footer .about-footer .shop-about-social a{
@@ -226,8 +231,18 @@
     body footer .shop-care .shop-care-customer{
         margin: 0;
     }
-    body footer .shop-care .col-6{
+    body footer .shop-care .col-6,
+    body footer .about-footer .about-footer-af{
         padding: 0 6px;
+    }
+    body footer .about-footer .about-footer-af,
+    body footer .about-footer .care-footer
+    {
+        padding: 0;
+        text-align: center;
+    }
+    body footer .about-footer .about-footer-af .shop-about{
+        padding: 0 15%;
     }
     body footer .btn-to-Top{
         margin: 0 25px 70px 0;

@@ -372,6 +372,7 @@ body main .header_cart-sidebar .cart_close{
     height: 50px;
 float: right;
 width: 50px;
+margin-right: 10px;
 position: relative;
 }
 body main .header_cart-sidebar .cart_close span{

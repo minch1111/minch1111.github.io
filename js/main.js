@@ -42,22 +42,22 @@ function a(a){
 // }
 
 
-$('.info-sliders').flickity({
-  cellAlign : 'center',
-  wrapAround : true,
-  prevNextButtons :true,
-  contain:true,
-  pageDots: false,
-  adaptiveHeight:true,
-  autoPlay:10000,
-  on :{
-   ready: function(){
-     let dotted = $('.flickity-page-dots'),
-     paging = ('.slider-bottom .dotted')
-     dotted.appendTo(paging);
-   }
- }
-})
+// $('.info-sliders').flickity({
+//   cellAlign : 'center',
+//   wrapAround : true,
+//   prevNextButtons :true,
+//   contain:true,
+//   pageDots: false,
+//   adaptiveHeight:true,
+//   autoPlay:10000,
+//   on :{
+//    ready: function(){
+//      let dotted = $('.flickity-page-dots'),
+//      paging = ('.slider-bottom .dotted')
+//      dotted.appendTo(paging);
+//    }
+//  }
+// })
 
 $('.brand-sliders').flickity({
   cellAlign : 'center',
