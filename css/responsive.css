@@ -113,9 +113,10 @@
     body footer .section{
         margin: 0 5px;
         justify-content: center;
+        display: flex;
     }
     body main .pet-care-choice .care-choice-content,
-    body main .row-small{
+    body main .row-small,body footer .row{
         width: 100%;
     }
     body main .pet-care-choice .content-pet h2{
@@ -200,6 +201,7 @@
     body footer .about-footer .care-footer{
         padding-top: 30px;
         background-color: black;
+        text-align: center;
     }
     body footer .about-footer .shop-about-social a{
         width: 24px;
@@ -228,7 +230,8 @@
     body footer .shop-about-social .ytb{
         color: red;
     }
-    body footer .shop-care .shop-care-customer{
+    body footer .shop-care .shop-care-customer,
+    body footer .row{
         margin: 0;
     }
     body footer .shop-care .col-6,
@@ -241,8 +244,15 @@
         padding: 0;
         text-align: center;
     }
-    body footer .about-footer .about-footer-af .shop-about{
+    body footer .about-footer .about-footer-af .shop-about,
+    body footer .about-footer .care-footer .shop-care{
         padding: 0 15%;
+        width: 100%;
+        margin: 0;
+    }
+    body footer .footer-img{
+        height: 1300px;
+        margin-top: -1271px;
     }
     body footer .btn-to-Top{
         margin: 0 25px 70px 0;
